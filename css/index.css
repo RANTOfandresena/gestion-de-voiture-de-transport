@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    margin-left: 490px;
+    background-color: #f5f5f5;
+    margin-top: 100px;
+}
+
+fieldset {
+    height: 300px;
+    width: 400px;
+}
+
+input {
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 3px 3px;
+    background-color: #f5f5f5;
+    height: 22px
+}
+
+h1 {
+    font-family: cursive;
+    color: #0A008F;
+}
+
+input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom: 0;
+}
+
+@media screen and ( max-width:1280px) and (min-width:300px) {
+    body {
+        text-align: center;
+        margin-left: 10px;
+    }
+    h1 {
+        color: #b43f3d;
+    }
+}
